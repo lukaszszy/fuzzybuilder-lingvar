@@ -1,0 +1,15 @@
+[
+  {
+    "name": "price",
+    "definition": [
+      {
+        "term": "cheap",
+        "function": "($var>=3000 ? 1 : ( ($var<1000 and $var>=0) ? 0 : 0.0005*$var-0.5))"
+      },
+      {
+        "term": "expensive",
+        "function": "($var>=3000 ? 1 : ( ($var<1000 and $var>=0) ? 0 : 0.0005*$var-0.5))"
+      }
+    ]
+  }
+]
