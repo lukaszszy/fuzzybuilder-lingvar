@@ -9,7 +9,7 @@ Class LingvarServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        (new MacroProvider);
+        (new LingVarMacroProvider);
     }
 }
 
